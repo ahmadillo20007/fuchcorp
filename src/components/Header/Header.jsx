@@ -1,6 +1,5 @@
 import React from 'react'
 import logo from '../../img/logo.png'
-import main from '../../img/main.png'
 import './Header.scss'
 function Header() {
   return (
@@ -38,7 +37,6 @@ function Header() {
 <h1 className='header__text'>
 Welcome to Academy
 </h1>
-<img className='header__img' src={main} alt="" />
         </div>
     </div>
   )

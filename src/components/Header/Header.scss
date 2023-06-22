@@ -1,5 +1,5 @@
 .header {
-
+padding-bottom: 500px;
     background-image: url(../../img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,7 +19,7 @@
                 font-family: DM Sans;
                 font-weight: 700;
                 line-height: 100%;
-                width: 400px;
+                max-width: 400px;
                 display: flex;
                 list-style-type: none;
                 justify-content: space-between;
@@ -36,8 +36,5 @@ font-size: 55px;
 font-family: DM Sans;
 font-weight: 500;
     }
-    .header__img{
-       margin-left: 460px;
-       margin-top: 65px;
-    }
+
 }
