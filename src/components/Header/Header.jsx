@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../img/logo.png'
 import './Header.scss'
+import { Link } from 'react-router-dom'
 function Header() {
   return (
     <div className='header'>
@@ -11,18 +12,26 @@ function Header() {
             </div>
             <div className="center">
               <ul className='center__list'>
-                <li>
-                  About Project
+              <a href="#sub">
+              <li>
+                About Project
                 </li>
+              </a>
+                <a href="">
                 <li>
                   Subscriptions
                 </li>
+                </a>
+                <a href="">
                 <li>
                   FAQ
                 </li>
-                <li>
+                </a>
+           <a href="">
+           <li>
                   Contact Us
                 </li>
+           </a>
               </ul>
             </div>
 

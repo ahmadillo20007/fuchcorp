@@ -7,7 +7,7 @@ height: 600px;
 
    
     .wrapper {
-
+padding-top: 60px;
         align-items: center;
         display: block;
         display: flex;
@@ -36,7 +36,7 @@ height: 600px;
         }
     }
     .header__text{
-        margin-top: 94px;
+        margin-top: 54px;
         color: #FFF;
 text-align: center;
 font-size: 55px;
@@ -48,6 +48,7 @@ font-weight: 500;
         justify-content: space-between;
         width: 200px;
         .login{
+            display: block;
             display: flex;
 width: 111px;
 height: 51px;
@@ -80,8 +81,9 @@ margin-left: 26px;
 }
 @media (min-width: 0) and (max-width: 1120px) {
     .wrapper{
+        margin-top: -50px;
         display: flex;
-        border: 1px solid #000;
+        
         justify-content: space-between;
     }
     .center{
@@ -106,4 +108,9 @@ line-height: 100%;
         
     }
     
+}
+@media (min-width: 0) and (max-width: 735px) {
+.login{
+    display: none;
+}
 }
