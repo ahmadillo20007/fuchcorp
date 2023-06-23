@@ -12,10 +12,10 @@ function Main() {
 <  img  className='main__img' src={main} alt="" />
 </div>
     <ul className='main__list'>
-<p className='main__out'> 
+{/* <p className='main__out'> 
 <span>Compare</span> <br />
 Plans
-    </p>
+    </p> */}
     <li>
 <div className="inner">
 <img src={i} alt="" /> <p> BASIC</p>

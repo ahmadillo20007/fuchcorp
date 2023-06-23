@@ -1,15 +1,22 @@
 .header {
-padding-bottom: 500px;
-    background-image: url(../../img/bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 
+height: 600px;
+    background-image: url(../../img/bg.png);
+    background-size: 100% calc(100% - 150px);
+    background-repeat: no-repeat;
+
+   
     .wrapper {
-        padding-top: 30px;
+
         align-items: center;
+        display: block;
         display: flex;
         justify-content: space-around;
-
+.inner{
+    
+    display: flex;
+    justify-content: space-between;
+}
         .center {
             .center__list {
                 
@@ -19,7 +26,7 @@ padding-bottom: 500px;
                 font-family: DM Sans;
                 font-weight: 700;
                 line-height: 100%;
-                max-width: 400px;
+               width:  400px;
                 display: flex;
                 list-style-type: none;
                 justify-content: space-between;
@@ -36,5 +43,67 @@ font-size: 55px;
 font-family: DM Sans;
 font-weight: 500;
     }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        .login{
+            display: flex;
+width: 111px;
+height: 51px;
+padding: 20px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 60px;
+background: #FFF;
+        }
+        .sub{
+            display: flex;
+width: 128px;
+height: 51px;
+padding: 20px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 60px;
+background: #05ADA6;
+margin-left: 26px;
+        }
+    }
 
+}
+.center__list__med{
+    display: none;
+}
+@media (min-width: 0) and (max-width: 1120px) {
+    .wrapper{
+        display: flex;
+        border: 1px solid #000;
+        justify-content: space-between;
+    }
+    .center{
+      display: none;
+    }
+    .center__list__med{
+flex-wrap: wrap     ;
+        display: block;
+        max-width:  400px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        margin-left: 60px;
+        margin-top: 30px;
+        li{
+            color: #FFF;
+font-size: 16px;
+font-family: DM Sans;
+font-weight: 700;
+line-height: 100%;
+        }
+        
+    }
+    
 }

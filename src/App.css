@@ -1,5 +1,17 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     max-width: 1600px;
     margin: 0 auto;
+}
+@media (min-width: 0) and (max-width: 1120px) {
+.container{
+max-width: 1440px;
+}
+    
 }
