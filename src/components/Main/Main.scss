@@ -1,8 +1,12 @@
+.img{
+        
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        .main__img {
+            margin-top: -315px;
 
-.main__img {
-
-    margin-left: 480px;
-    margin-top: -315px;
+    }
 }
 
 .main__list {
