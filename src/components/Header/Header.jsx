@@ -41,7 +41,7 @@ function Header() {
               Login
             </button>
             </a>
-            <a href="#sub">
+            <a href="/login">
             <button className='sub'>
               Subscribe
             </button>
