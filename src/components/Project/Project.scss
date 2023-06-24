@@ -1,7 +1,9 @@
 .project {
+    padding-bottom: 66px;
   margin-top: 90px;
   background: linear-gradient(222deg, #05ada6 0%, #044c74 100%);
   .innerr {
+    align-items: center;
     display: flex;
     justify-content: space-around;
     .text {
@@ -21,6 +23,7 @@ line-height: 122%;
 letter-spacing: 1.625px;
 text-transform: uppercase;
 opacity: 0.5;
+
       }
       .text__main{
         margin-top: 10px;
@@ -46,6 +49,49 @@ color: #FFF;
 font-size: 14.47px;
 font-family: DM Sans;
 line-height: 21.5px;
+      }
+      .text__label{
+display: flex;
+width: 545px;
+height: 24px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-size: 10.831px;
+font-family: DM Sans;
+font-weight: 700;
+line-height: 122%;
+letter-spacing: 1.625px;
+text-transform: uppercase;
+opacity: 0.5;
+      }
+      .text__inp{
+        border: none;
+      width: 391px;
+height: 36px;
+flex-shrink: 0;
+background: #FFF;
+      }
+      .text__btn{color: #FFF;
+        font-size: 12.636px;
+        font-family: DM Sans;
+        font-weight: 700;
+        line-height: 148%;
+        letter-spacing: 0.253px;
+        text-transform: uppercase;
+
+        margin-top: 26px;
+        border: none;
+        display: flex;
+width: 94px;
+height: 28px;
+padding: 18.052px 45.129px;
+justify-content: center;
+align-items: center;
+gap: 9.026px;
+flex-shrink: 0;
+border-radius: 7.221px;
+background: #05ADA6;
       }
     }
   }

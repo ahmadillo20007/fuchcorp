@@ -32,7 +32,7 @@ We offer live online classes, videos, help and guidance on all professional expe
                 <p className='text__label'>
                 Subscribe to our mail list & find out latest news
                 </p>
-                <input className='text__inp' type="text" name="" id="" />
+                <input className='text__inp' type="text" name="" id="" /> <br />
                 <button className='text__btn'>subscribe</button>
 </div>
             <div className="img">
