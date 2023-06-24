@@ -1,0 +1,65 @@
+.project {
+  margin-top: 90px;
+  background: linear-gradient(222deg, #05ada6 0%, #044c74 100%);
+  .innerr {
+    display: flex;
+    justify-content: space-around;
+    .text {
+      max-width: 542px;
+      .text__item{
+        margin-top: 111px;
+        display: flex;
+max-width: 222px;
+height: 12px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-size: 10.831px;
+font-family: DM Sans;
+font-weight: 700;
+line-height: 122%;
+letter-spacing: 1.625px;
+text-transform: uppercase;
+opacity: 0.5;
+      }
+      .text__main{
+        margin-top: 10px;
+        display: flex;
+max-width: 450px;
+height: 58px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-size: 43.324px;
+font-family: DM Sans;
+font-weight: 500;
+line-height: 122%;
+      }
+      .text__text{
+        margin-top: 18px;
+        display: flex;
+max-width: 542px;
+height: 318px;
+flex-direction: column;
+flex-shrink: 0;
+color: #FFF;
+font-size: 14.47px;
+font-family: DM Sans;
+line-height: 21.5px;
+      }
+    }
+  }
+  .img {
+    img {
+      height: 85%;
+      max-width: 658px;
+      border-radius: 10.831px;
+    }
+  }
+}
+@media (min-width: 0) and (max-width: 1100px) {
+  .img {
+    .project__img {
+    }
+  }
+}
