@@ -59,8 +59,27 @@ gap: 10px;
 flex-shrink: 0;
 border-radius: 60px;
 background: #FFF;
+color: #15AFA2;
+font-size: 14px;
+font-family: DM Sans;
+font-weight: 700;
+line-height: 148%;
+letter-spacing: 0.28px;
+text-transform: uppercase;
         }
-        .sub{
+        .login:hover{
+            color: #000;
+        }
+        
+        .sub{color: #FFF;
+            text-align: right;
+            font-size: 14px;
+            font-family: DM Sans;
+            font-weight: 700;
+            line-height: 148%;
+            letter-spacing: 0.28px;
+            text-transform: uppercase;
+
             display: flex;
 width: 128px;
 height: 51px;
@@ -72,6 +91,9 @@ flex-shrink: 0;
 border-radius: 60px;
 background: #05ADA6;
 margin-left: 26px;
+        }
+        .sub:hover{
+            background-color: #02ffeac3;
         }
     }
 
