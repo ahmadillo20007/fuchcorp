@@ -1,0 +1,40 @@
+.footer{
+    padding-bottom: 41px;
+    margin-top: 200px;
+    background: #0D0D0D;
+    .top{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 42px;
+    padding-bottom: 21px;
+}
+.center{
+    ul{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        li{
+            color: #fff;
+        }
+    }
+}
+.right{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+.but{
+ 
+
+
+    display: flex;justify-content: space-around;list-style-type: none;
+
+        div{
+            color: #fff;
+        
+    }
+}

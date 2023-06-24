@@ -3,6 +3,7 @@ import Header from '../../components/Header/Header'
 import Main from '../../components/Main/Main'
 import Project from '../../components/Project/Project'
 import About from '../../components/About/About'
+import Footer from '../../components/Footer/Footer'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Main/>
         <Project/>
         <About/>
+        <Footer/>
     </div>
   )
 }

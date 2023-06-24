@@ -12,22 +12,22 @@ function Header() {
             </div>
             <div className="center">
               <ul className='center__list'>
-              <a href="#sub">
+              <a href="/login">
               <li>
                 About Project
                 </li>
               </a>
-                <a href="">
+                <a href="#sub">
                 <li>
                   Subscriptions
                 </li>
                 </a>
-                <a href="">
+                <a href="/login">
                 <li>
                   FAQ
                 </li>
                 </a>
-           <a href="">
+           <a href="/login">
            <li>
                   Contact Us
                 </li>
@@ -36,12 +36,16 @@ function Header() {
             </div>
 
           <div className="right">
+            <a href="/login">
             <button className='login'>
               Login
             </button>
+            </a>
+            <a href="#sub">
             <button className='sub'>
               Subscribe
             </button>
+            </a>
           </div>
         </div>
               <ul className='center__list__med'>

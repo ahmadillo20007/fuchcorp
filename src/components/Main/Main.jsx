@@ -11,7 +11,7 @@ function Main() {
 <div className="img">
 <  img  className='main__img' src={main} alt="" />
 </div>
-    <ul className='main__list'>
+    <ul id='sub' className='main__list'>
 {/* <p className='main__out'> 
 <span>Compare</span> <br />
 Plans

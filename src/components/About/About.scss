@@ -1,16 +1,88 @@
-.about{
-    background: url(../../img/bgg.png), lightgray 50% / cover no-repeat;
-    .about__text{
-        padding-top: 69px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.about {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../../img/bgg.png), lightgray 50% / cover no-repeat;
+  padding-bottom: 70px;
+  .about__text {
+    padding-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-color: #FFF;
-font-size: 48px;
-font-family: DM Sans;
-font-weight: 500;
-
+    color: #fff;
+    font-size: 48px;
+    font-family: DM Sans;
+    font-weight: 500;
+  }
+  .div1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 13.464px;
+    background: #fff;
+    box-shadow: 0px 17.95233154296875px 44.88083267211914px 0px
+      rgba(59, 62, 67, 0.05);
+    max-width: 941.999px;
+    height: 253px;
+    margin-top: 60px;
+    .k {
+      height: 100%;
     }
+    .p {
+      width: 499.938px;
+      h4 {
+        max-width: 343.433px;
+        height: 30.537px;
+        color: #3b3e43;
+        font-size: 19.748px;
+        font-family: DM Sans;
+        font-weight: 700;
+        span {
+          color: #05ada6;
+        }
+      }
+    }
+  }
+  .div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    border-radius: 13.464px;
+    background: #fff;
+    box-shadow: 0px 17.95233154296875px 44.88083267211914px 0px
+      rgba(59, 62, 67, 0.05);
+    max-width: 941.999px;
+    height: 253px;
+    .w {
+        margin-left: 100px;
+        p{
+            margin-top: 10px;
+        }
+      h2 {
+        display: flex;
+align-items: center;
+        span {
+            margin-left: 20px;
+            font-size: 15px;
+            color: #05ADA6;
+        }
+      }
+    }
+  }
+}
+.div1__text {
+  color: #3b3e43;
+  font-size: 19.748px;
+  font-family: DM Sans;
+  font-weight: 700;
+}
+.img2 {
+    width: 100%;
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
