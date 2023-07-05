@@ -21,11 +21,11 @@ function Login() {
             <h3>
             Manual Login
             </h3>
-            <input type="text" />
-            <input type="text" />
+            <input placeholder='Username' type="text" />
+            <input placeholder='Password' type="password" />
      <div className="but">
-     <Link>Forgot Passowrd</Link>
-            <Link>Login</Link>
+     <Link>Forgot Passowrd</Link> 
+     
      </div>
           </div>
         </div>
