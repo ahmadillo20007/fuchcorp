@@ -1,7 +1,26 @@
 import React from 'react'
 import './Login.scss'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 function Login() {
+
+
+  const navigate = useNavigate()
+function fnIn (e) {
+  e.preventDefault()
+  fetch('https://647092d63de51400f7248a57.mockapi.io/login' ,{
+    method: 'POST',
+    headers: {'Content-type' : 'Application/json' },
+    body : JSON.stringify({login : e.target.login.value , password: e.target.password.value})
+  })
+  .then((res)=> res.json())
+  .then((data)=> {
+    if(data.status == true){
+navigate('/')
+window.localStorage.setItem( 'key', data.token )
+    }
+  })
+}
+
   return (
     <div className='login'>
       <div className="container">
@@ -21,8 +40,10 @@ function Login() {
             <h3>
             Manual Login
             </h3>
-            <input placeholder='Username' type="text" />
-            <input placeholder='Password' type="password" />
+          <form action="#">
+          <input onSubmit={fnIn} placeholder='Username' type="text" name='login' />
+            <input placeholder='Password' type="password" name='password' />
+          </form>
      <div className="but">
      <Link>Forgot Passowrd</Link> 
      

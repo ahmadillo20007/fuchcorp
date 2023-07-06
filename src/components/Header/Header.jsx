@@ -40,8 +40,7 @@ function Header() {
             <button className='login'>
               Login
             </button>
-            </a>
-            <a href="/login">
+            </a>          <a href="/login3">
             <button className='sub'>
               Subscribe
             </button>
@@ -57,11 +56,11 @@ function Header() {
                 </li>
                 <li>
                   FAQ
-                </li>
+            6    </li>
                 <li>
                   Contact Us
                 </li>
-              </ul>
+              </ul>3
         <h1 className='header__text'>
           Welcome to Academy
         </h1>
